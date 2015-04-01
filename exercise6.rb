@@ -25,3 +25,7 @@ else
 end
 
 puts grocery_list[1]
+
+sorted_grocery_list = grocery_list.sort
+
+groceries(sorted_grocery_list)
