@@ -32,8 +32,19 @@ end
 
 expanded_cohorts(students)
 
+
 # Step 5
 
 students.delete(:cohort2)
 
 expanded_cohorts(students)
+
+# Bonus
+
+def count_students(list)
+  number = 0
+  list.each { |key, value| number += value }
+  return number
+end
+
+puts count_students(students)
