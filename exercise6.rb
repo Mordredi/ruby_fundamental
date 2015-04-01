@@ -15,3 +15,5 @@ def groceries(list)
 end
 
 groceries(grocery_list)
+
+puts grocery_list.count
